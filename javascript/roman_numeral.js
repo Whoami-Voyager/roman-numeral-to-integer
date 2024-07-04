@@ -15,7 +15,7 @@ function romanNumeral(string) {
     const value = romanNumerals[index]
     const lastIndex = romanNumerals.indexOf(lastString) + 1
     const lastValue = romanNumerals[lastIndex]
-    if (value > lastValue){
+    if (value > lastValue) {
       result -= lastValue
       result += value - lastValue
     } else {
